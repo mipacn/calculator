@@ -1,0 +1,20 @@
+div {
+    display: flex;
+    gap: 20px
+}
+
+.phone {
+    flex-direction: column;
+    background-color: black;
+    padding: 30px  ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    margin-left: auto;
+}
