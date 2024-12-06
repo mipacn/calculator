@@ -180,7 +180,11 @@ period.addEventListener("click", () => {
 
 
 equal.addEventListener("click", () => {
-    let result = operate(+firstNumber, +lastNumber, operator)
+    let result
+    if (operator == "") result = firstNumber
+    else {
+        result = operate(+firstNumber, +lastNumber, operator)
+    }
     display.textContent = result
     firstNumber = result.toString()
     lastNumber = ""
