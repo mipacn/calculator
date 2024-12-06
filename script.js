@@ -29,10 +29,10 @@ function operate (a, b, sign){
 
 }
 
-let multiplication = document.querySelector(".multiply")
-let substraction = document.querySelector(".substract")
-let addition = document.querySelector(".add")
-let division = document.querySelector(".divide")
+let multiplication = document.querySelector("#multiply")
+let substraction = document.querySelector("#substract")
+let addition = document.querySelector("#add")
+let division = document.querySelector("#divide")
 let change = document.querySelector(".change")
 let clear = document.querySelector(".clear")
 let perc = document.querySelector(".perc")
@@ -46,7 +46,7 @@ let seven = document.querySelector(".seven")
 let eight = document.querySelector(".eight")
 let nine = document.querySelector(".nine")
 let zero = document.querySelector(".zero")
-let equal = document.querySelector(".equal")
+let equal = document.querySelector("#equal")
 let period = document.querySelector(".period")
 let display = document.querySelector("p")
 
